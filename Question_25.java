@@ -25,18 +25,14 @@ public class Question_25 {
         return true;
     }
 
-    static {
-         System.out.println("Welcome to DurgaSoftware Soultions");
-         System.exit(0);//To terminate the programme
-         }
 
-//    public static void main(String[] args) {
-//        System.out.println(isAnagram1("anagram", "nagaqam"));
-//        System.out.println(isAnagram1("rat", "car"));
-//        System.out.println(isAnagram1("a", "b"));
-//        System.out.println(isAnagram1("akib", "bika"));
-//        System.out.println(isAnagram1("wazan", "nawaz"));
-//        System.out.println(isAnagram1("quazi", "quiz"));
+    public static void main(String[] args) {
+        System.out.println(isAnagram1("anagram", "nagaqam"));
+        System.out.println(isAnagram1("rat", "car"));
+        System.out.println(isAnagram1("a", "b"));
+        System.out.println(isAnagram1("akib", "bika"));
+        System.out.println(isAnagram1("wazan", "nawaz"));
+        System.out.println(isAnagram1("quazi", "quiz"));
 
-//    }
+    }
 }

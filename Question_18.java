@@ -26,15 +26,15 @@ public class Question_18 {
     }
     public static int singleNumber2(int[] nums) {
         int count = 0;
-        for (int i = 0; i < nums.length; i++) {
+        for (int j : nums) {
             count = 0;
-            for (int j = 0; j < nums.length; j++) {
-                if (nums[i] == nums[j]) {
+            for (int num : nums) {
+                if (j == num) {
                     count++;
                 }
             }
             if (count == 1) {
-                return nums[i];
+                return j;
             }
         }
         return 0;

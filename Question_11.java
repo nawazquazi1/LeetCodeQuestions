@@ -1,3 +1,8 @@
+import javax.security.sasl.SaslClient;
+import java.sql.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Question_11 {
     public static String addBinary(String a, String b) {
         long n = Long.parseLong(a);
@@ -15,12 +20,18 @@ public class Question_11 {
             c = d / base;
             d = d % base;
             rv += d * pov;
+
             pov *= 10;
         }
         return String.valueOf(rv);
     }
 
+
     public static void main(String[] args) {
-        System.out.println(addBinary("10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101","110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"));
+        System.out.println(addBinary("10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101", "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"));
+
+
+
+
     }
 }

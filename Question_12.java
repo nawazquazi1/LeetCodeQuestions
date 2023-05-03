@@ -20,7 +20,7 @@ public class Question_12 {
      }
 
     public static void main(String[] args) {
-        System.out.println(mySqrt1(4));
+        System.out.println(mySqrt1(2147483647));
         System.out.println(mySqrt1(8));
 
     }
